@@ -32,15 +32,12 @@
 + 变量生存周期是页面级的。
 + 适合大中小型网站。
 + LAMP体系是绝配。
-
-
-<pre>
-
-  <?php
+```
+<?php
     echo "hello world!";
-  ?>
-
-</pre>
+?>
+```
+<br/>
 
 ### java语言特点
 ***
@@ -50,3 +47,12 @@
 + 跨平台、高移值性
 + 稳定、安全性高
 + 各种类库十分丰富
+
+```
+class Hello{
+  public static void main(String args[]){
+    System.out.printIn('hello world!');
+  }
+}
+```
+
