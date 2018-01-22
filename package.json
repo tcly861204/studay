@@ -1,0 +1,14 @@
+{
+  "name": "studay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tcly861204/studay.git",
+  "author": "tcly861204 <tcly861204@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
