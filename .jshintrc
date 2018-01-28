@@ -24,15 +24,26 @@
   "noarg": true,
 
   // 严格模式
-  "strict": true,
+  "strict": false,
 
   //允许省略分号
   "asi": true,
+  // "es3": true,
+  // 支持es6
+  "esversion": 6,
+
+  //环境变量
+  "devel": true,
+  "browser": true,
+  "browserify": true,
+
+
 
   //定义全局变量
   "globals": {
     "console": true,
-    "$": true
+    "$": true,
+    "require": true
   }
 
 }
